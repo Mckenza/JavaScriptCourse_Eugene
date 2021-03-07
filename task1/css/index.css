@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper_{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.buttons{
+    height: 200px;
+    width: 400px;
+    background-color: dimgrey;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+input{
+    height: 50%;
+    width: 40%;
+    border: none;
+    background-color: cornsilk;
+    font-size: 25px;
+}

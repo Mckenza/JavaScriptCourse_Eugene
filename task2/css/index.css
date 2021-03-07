@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper_p{
+    width: 500px;
+    height: 100%;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.several_paragraphs{
+    height: 100%;
+    width: 100%;
+
+}
+
+.several_paragraphs p{
+    height: 80px;
+    width: 100%;
+    font-size: 18px;
+}
