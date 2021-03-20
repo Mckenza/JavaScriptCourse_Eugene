@@ -9,7 +9,7 @@ function counter(){
 const firstButton = document.getElementById('first_button_id');
 const secondButton = document.getElementById('second_button_id'); 
 
-const numForFirstButton = counter()
+const numForFirstButton = counter();
 const numForSecondButton = counter();
 
 firstButton.onclick = ()=>{
