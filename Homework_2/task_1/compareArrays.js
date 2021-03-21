@@ -12,7 +12,7 @@ function compare(firstArray, secondArray){
         for(let i = 0; i < firstArray.length; i++){
             if(firstArray[i] !== secondArray[i]){
                 isEqual = false;
-                console.log('Массивы не равны');
+                console.log('Массивы неравны');
                 console.log(`${firstArray} и ${secondArray}`);
                 break;
             }
@@ -22,10 +22,10 @@ function compare(firstArray, secondArray){
             console.log(`${firstArray} и ${secondArray}`);
         }
     } else {
-        console.log('Не равны массивы:');
+        console.log('Неравны массивы:');
         console.log(`${firstArray} и ${secondArray}`);
     }
 }
 
-compare(c,g);
-
+compare(a,b);               // Равны
+compare(a,c);               // Неравны
