@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.wrap_table table{
+    border: 2px black solid;
+    width: 100%;
+}
+
+.wrap_table{
+    width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.button input{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+}
