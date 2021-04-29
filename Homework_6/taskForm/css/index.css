@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input, select, button {
+    outline: none;
+}
+
+.wrap_form{
+    height: 300px;
+    width: 300px;
+    margin: 10px 0 0 20px;
+}
+
+#main_form{
+    height: 100%;
+    width: 100%;
+}
+
+.all_elements{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.all_elements .style2{
+
+    height: 15%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.all_elements div input{
+    border: none;
+    border-bottom: 3px black solid;
+}
+
+
+.notification{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: rgb(228, 112, 92);
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 1px 2px 5px black;
+    z-index: 10;
+
+}
+
+.notification span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: auto 0;
+    color: white;
+    font-size: 16px;
+}
+
+.figure{
+    height: 0;
+    width: 0;
+    border-bottom: 14px solid rgb(228, 112, 92);;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+}
+
+#education_select{
+    width: 100%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="wrap_form">
+        <form action="#" id="main_form">
+            <div class="all_elements">
+                <div class="wrap_firstname style2">
+                    <label for="first_name">Имя*</label><input type="text" placeholder="Имя" id="first_name" maxlength="20"> 
+                </div>
+                <div class="wrap_lastname style2">
+                    <label for="last_name">Фамилия*</label><input type="text" placeholder="Фамилия" id="last_name" maxlength="20">
+                </div>
+                <div class="wrap_date_of_birth style2">
+                    <label for="date_of_birth">Дата рождения*</label><input type="date" id="date_of_birth">
+                </div>
+                <div class="wrap_age style2">
+                    <label>Возраст: </label><span id="age"></span>
+                </div>
+                <div class="wrap_number_phone style2">
+                    <label for="number_phone">Номер телефона*</label><input type="text" placeholder="Номер телефона" id="number_phone" maxlength="20">
+                </div>
+                <div class="wrap_email style2">
+                    <label for="email">Почта</label><input type="text" placeholder="Почта" id="email" maxlength="30">
+                </div>
+                <div class="wrap_holyday style2">
+                    <label for="holyday_value">Дни отпуска*</label> <input type="number" placeholder="Значение отпуска" id="holyday_value">
+                </div>
+                <div class="wrap_education style2">
+                    <select id="education_select">
+                        <option selected>Образование</option>
+                        <option value="Высшее">Высшее</option>
+                        <option value="Среднее">Среднее</option>
+                        <option value="Не знаю">Не знаю</option>
+                    </select>
+                </div>
+            </div>
+            <input type="submit" id="button_submit">
+        </form>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
