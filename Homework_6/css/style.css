@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.edit_text{
+    height: 200px;
+    width: 300px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#input_text, .result_edit{
+    height: 15%;
+    width: 80%;
+    margin: 5px auto;
+}
+
+.buttons{
+    height: 85%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.buttons input{
+    height: 20%;
+    width: 60%;
+}
+
+.cut_text{
+    height: 100px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cut_text:before{
+    content: "";
+    height: 2px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.inputs{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    justify-content: left;
+}
+
+.inputs input{
+    height: 70%;
+    width: 20%;
+    margin: auto 0;
+}
+
+.inputs span{
+    height: 70%;
+    width: 10%;
+    margin: auto 0;
+    text-align: center;
+    padding: 3px;
+    padding-top: 6px;
+}
+
+#button_copy{
+    height: 40%;
+    width: 50%;
+    margin: 5px 0 0 10px;
+}
+
+.result_copy{
+    height: 30%;
+    width: 50%;
+    margin: 5px 0 0 10px;
+}
