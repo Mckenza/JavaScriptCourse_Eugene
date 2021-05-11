@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div_color{
+            height: 100px;
+            width: 100px;
+            border: 1px black solid;
+        }
+
+        .submit{
+            height: 100%;
+            height: 200px;
+            margin-top: 10px;
+        }
+
+        .all_inputs{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .submit{
+            height: 100%;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="all_link">
+        <a title="" href="#">Текст первой ссылки</a>
+        <a title="" href="#">Текст второй ссылки</a>
+        <a title="" href="#">Текст третьей ссылки</a>
+    </div>
+
+    <div class="inputs">
+        <input type="text" id="inputOne" >
+        <input type="text" id="inputTwo" >
+    </div>
+    <p id="test"></p>
+
+    <div class="div_color"></div>
+    <div class="div_color"></div>
+    <div class="div_color"></div>
+
+    <input type="button" id="add_input" value="Добавить">
+    <form class="submit">
+        
+        <div class="all_inputs">
+            <input type="text" class="input_submit">
+        </div>
+        <input type="button" id="send_data" value="submit">
+    </form>
+        
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
