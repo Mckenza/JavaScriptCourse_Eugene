@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div_for_ball, .div_drop{
+    height: 350px;
+    width: 350px;
+    border: 2px black solid;
+    margin: 10px;
+    position: relative;
+}
+
+.random_ball{
+    margin: 10px 80px;
+}
+
+#amount_ball{
+    height: 20px;
+    width: 100px;
+    border: 2px black solid;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#button_add_ball{
+    height: 24px;
+    width: 80px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
