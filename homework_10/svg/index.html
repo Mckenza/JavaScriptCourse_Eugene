@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="manage_svg">
+        <span>Фигура:</span>
+        <input type="button" value="Круг" id="drow_circle">
+        <input type="button" value="Квадрат" id="drow_rect">
+        <input type="button" value="Линия" id="drow_lines">
+        <select id="stroke_value">
+            <option disabled selected>Цвет обводки</option>
+            <option value="red">Красный</option>
+            <option value="blue">Синий</option>
+            <option value="yellow">Желтый</option>
+            <option value="notStroke">выкл. обводку</option>
+        </select>
+        <select id="fill_value">
+            <option disabled selected>Цвет заливки</option>
+            <option value="red">Красный</option>
+            <option value="blue">Синий</option>
+            <option value="yellow">Желтый</option>
+            <option value="transparent">выкл. заливку</option>
+        </select>
+    </div>
+    <div class="field_svg">
+        <svg version="1.1"
+        baseProfile="full"
+        width="1000" height="700"
+        xmlns="http://www.w3.org/2000/svg"
+        id="main_svg">
+        </svg>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
