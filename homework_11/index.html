@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .content {
+            height: 800px;
+            width: 900px;
+            display: flex;
+        }
+
+        .wrap_table {
+            height: 100%;
+            max-width: 50%;
+        }
+
+        .form {
+            display: none;
+            height: 300px;
+            width: 40%;
+        }
+
+        #newUser {
+            height: 100%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #newUser * {
+            margin: 5px;
+            border: 2px black solid;
+        }
+
+        .manage {
+            height: 100px;
+            width: 10%;
+        }
+
+        #add_new_users {
+            display: none;
+        }
+
+        #update_users {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="wrap_table">
+            <input type="button" id="get_data" value="Button">
+            <table border="1" id="main_table">
+                <tr>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="form" id="all_info_data">
+            <form id="newUser">
+                <input type="text" id="name_form" placeholder="Name">
+                <input type="text" id="username_form" placeholder="Username">
+                <input type="text" id="email" placeholder="Email">
+                <input type="text" id="address_street" placeholder="Street">
+                <input type="text" id="address_suite" placeholder="Suite">
+                <input type="text" id="address_city" placeholder="City">
+                <input type="text" id="address_zipcode" placeholder="Zipcode">
+            </form>
+        </div>
+        <div class="manage">
+            <input type="button" id="add_new_users" value="New User">
+            <input type="button" id="update_users" value="Update">
+        </div>
+    </div>
+    <script type="module" src="js/init/init.js"></script>
+</body>
+</html>
